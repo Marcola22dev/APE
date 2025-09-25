@@ -7,7 +7,7 @@
 
 int main() {
 	
-	float valor_bruto, valor_liquido, x, j;
+	float valor_bruto, valor_liquido, x, j, p;
 	int meses = 0;
 	
 	printf("Valor bruto do emprestimo: R$ ");
@@ -19,9 +19,12 @@ int main() {
 	printf("\n------------------------------\n");
 	
 	j = valor_bruto * 0.05 * meses; 
+	x = j+valor_bruto;
+	p = x / meses;
 	
 	printf("Valor liquido: R$%.2f\n", j);
-	printf("Valor total(com juros): R$%.2f", j+valor_bruto);
+	printf("Juros: R$%.2f\n", x);
+	printf("Valor parcela: R$%.2f", p );
 	
 	return 0;
 }
