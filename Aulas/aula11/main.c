@@ -35,6 +35,9 @@
 
 	Não é necessário utilizar o mesmo nome de variável nas funções 
 
+	-----------------------------------------------------------------------------
+	
+	system("cls"); - usado para limpar a tela na saída de dados
 	
 
  */
