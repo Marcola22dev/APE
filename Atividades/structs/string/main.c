@@ -9,13 +9,15 @@
 
 int main() {
 	
-	char nome[10], sobrenome[22];
+	char nome[22];
 	
-	printf("Insira seu primeiro nome: ");
-	scanf(" %s", nome);
 	
-	printf("Insira seu sobrenome: ");
-	scanf(" %s", nome);
+	
+	printf("Insira seu nome completo: ");
+	scanf("%[^\n]s", &nome);
+	
+	strlen(nome);
+	
 	
 	printf("\n+-------------------------+\n");
 	printf("|                         |\n");
